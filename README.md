@@ -1,37 +1,22 @@
 ```
-# Carpool App
+# Learning App
 
-This is a simple carpool application built with Flask.
+This is a simple learning application built with Flask.
 
-## Features
+## Setup
 
-- Create a carpool
-- Get all carpools
-- Get a specific carpool by ID
-- Delete a carpool
+1. Clone the repository.
+2. Install the dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```
+   python app.py
+   ```
 
-## Installation
+## Endpoints
 
-1. Clone the repository
-2. Navigate to the project directory
-3. Install the dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-Run the application:
-
-```bash
-python app.py
-```
-
-## API Endpoints
-
-- `POST /carpool`: Create a new carpool
-- `GET /carpool`: Retrieve all carpools
-- `GET /carpool/<id>`: Retrieve a specific carpool by ID
-- `DELETE /carpool/<id>`: Delete a specific carpool by ID
+- `GET /`: Welcome message
+- `POST /learn`: Learn about a specific topic
 ```
